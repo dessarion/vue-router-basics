@@ -1,0 +1,31 @@
+.page {
+  font-family: $monserat;
+  padding: 30px 50px 0;
+  text-align: left;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 80px;
+  bottom: 0;
+  background-position: 0 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media (max-width: 480px) {
+    padding-top: 80px;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 5em;
+    @media (max-width: 951px) {
+      font-size: 4.5em;
+    }
+    @media (max-width: 866px) {
+      font-size: 3.5em;
+    }
+    @media (max-width: 696px) {
+      font-size: 2.5em;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@@include('html-parts/header.html', {
+  "title": "Facts"
+})
+@@include('html-parts/nav-bar.html')
+  <div class="container">
+    <div class="page">
+      <h1>Маловідомі факти міста</h1>
+      @@include('html-parts/article.html', {
+        "article-header": "'Стіна смерті'",
+        "article-description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, similique. Tenetur quisquam minima dolor earum voluptatum, ex illo corporis odio."
+      })
+      @@include('html-parts/article.html', {
+        "article-header": "Флудер",
+        "article-description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, similique. Tenetur quisquam minima dolor earum voluptatum, ex illo corporis odio."
+      })      
+    </div>    
+  </div>
+@@include('html-parts/footer.html')
